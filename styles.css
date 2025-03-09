@@ -1,12 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('bkground.jpg'); /* Thay 'background.jpg' bằng đường dẫn đến hình ảnh của bạn */
+    background-size: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ màn hình */
+    background-position: center; /* Căn giữa hình ảnh */
     margin: 0;
     padding: 20px;
+    color: white; /* Đổi màu chữ cho dễ đọc trên nền tối */
 }
 
 h1 {
+    size: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    color: pink; /* Màu chữ trắng */
+    text-shadow: 2px 2px 4px white; /* Viền đen cho chữ */
 }
 
 .container {
@@ -20,7 +27,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Nền trắng với độ trong suốt */
     width: calc(33.33% - 20px); /* 3 hình trên mỗi hàng */
     position: relative; /* Để sử dụng cho hình ảnh */
 }
@@ -38,6 +45,9 @@ h1 {
 
 .description {
     padding: 10px;
+    text-align: center; /* Căn giữa mô tả */
+    color: pink; /* Màu chữ trắng */
+    text-shadow: 1px 1px 2px black; /* Viền đen cho chữ */
 }
 
 .fullscreen-image {
