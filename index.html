@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Web Hình Ảnh</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Liên kết đến file CSS -->
+</head>
+<body>
+
+    <h1>Women's Day</h1>
+    <p>Hãy xem những lời chúc của những anh chàng ITK21 dành riêng cho các bạn nhé!.</p>
+
+    <div class="container">
+        <!-- Hình ảnh 1 -->
+        <div class="image-box">
+            <img src="thunguyen copy.jpg" alt="Hình 1" class="blurred">
+            <div class="description">Võ Thị Thu Nguyên</div>
+            <button onclick="checkPassword('thunguyen copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!-- Hình ảnh 2 -->
+        <div class="image-box">
+            <img src="thanhtruc copy.jpg" alt="Hình 2" class="blurred">
+            <div class="description">Nguyễn Thị Thanh Trúc</div>
+            <button onclick="checkPassword('thanhtruc copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!-- Thêm các hình ảnh khác tương tự -->
+        <!-- Hình ảnh 3 đến 10 -->
+        <div class="image-box">
+            <img src="ngocanh copy.jpg" alt="Hình 3" class="blurred">
+            <div class="description">Kiều Ngọc Ánh</div>
+            <button onclick="checkPassword('ngocanh copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="ngocthuyen copy.jpg" alt="Hình 4" class="blurred">
+            <div class="description">Lê Ngọc Thuyền</div>
+            <button onclick="checkPassword('ngocthuyen copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="thaoly copy.jpg" alt="Hình 5" class="blurred">
+            <div class="description">Trương Thị Thảo Ly</div>
+            <button onclick="checkPassword('thaoly copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="phamtruc copy.jpg" alt="Hình 6" class="blurred">
+            <div class="description">Nguyễn Phạm Thanh Trúc</div>
+            <button onclick="checkPassword('phamtruc copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="thaonguyen copy.jpg" alt="Hình 7" class="blurred">
+            <div class="description">Trần Thị Thảo Nguyên</div>
+            <button onclick="checkPassword('thaonguyen copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="tnhi copy.jpg" alt="Hình 8" class="blurred">
+            <div class="description">Nguyễn Hoàng Thảo Nhi</div>
+            <button onclick="checkPassword('tnhi copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="mk copy.jpg" alt="Hình 9" class="blurred">
+            <div class="description">Trần Thị Minh Khuê</div>
+            <button onclick="checkPassword('mk copy.jpg', this)">Xem Hình</button>
+        </div>
+        <!---->
+        <div class="image-box">
+            <img src="bp copy.jpg" alt="Hình 10" class="blurred">
+            <div class="description">Bùi Bích Phương</div>
+            <button onclick="checkPassword('bp copy.jpg', this)">Xem Hình</button>
+        </div>
+    </div>
+    <!-- Phần tử cho hình ảnh toàn màn hình -->
+    <div class="fullscreen-image" id="fullscreenImage" onclick="hideFullscreen()">
+        <img id="fullscreenImg" src="" alt="Hình Toàn Màn Hình">
+        </div>
+
+    <script src="script.js"></script> <!-- Liên kết đến file JavaScript -->
+    </body>
+    </html>
